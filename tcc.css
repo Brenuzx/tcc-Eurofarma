@@ -1,0 +1,86 @@
+
+
+
+.logo{cursor: pointer;object-fit: cover; width: 110px;}
+
+
+header{
+    display: flex; justify-content: space-between; align-items: center;
+    
+}
+.banner{  width: 100%;
+    margin: 20px auto;}
+
+
+.banner img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover
+    ;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: .375rem;
+}
+input{
+    border-radius: 6px;
+    width: 300px;
+    height: 40px;
+}
+h1{
+    font-family: 'Roboto Condensed', sans-serif; font-weight: 900; font-size: 35px; padding-left: 15px;
+}
+#i{font-size: 15px;}
+
+li{
+    font-family: 'Roboto Condensed', sans-serif; font-weight: 100;
+
+}
+a{ text-decoration: none;text-decoration: none;color: black;}
+p{
+    font-family: 'Roboto Condensed', sans-serif;; font-weight: 100;
+}
+.C-icon{padding: 8px; font-size: 20px;}
+.produto img{
+    width: 400px;
+    height:400px ;
+}
+.produto{
+    text-align:center ;
+    
+}
+.links { gap: 20px;cursor: pointer; text-align: center; padding-top: 5px;}
+.C-icon{padding-top: 30px; padding-right: 15px;cursor: pointer;}
+.search{padding-top: 7px; display: flex; align-items: center; }
+.pesquisa{border: 2px solid rgb(0, 0, 0);padding: 10px;border-radius: 5px;}
+.carrosel{padding: 5px;}
+
+a:hover {transition: 0.3s; color: darkviolet; text-decoration: overline; font-weight: 900;}
+
+.final {
+    background: rgb(148,14,233);
+    background: linear-gradient(90deg, rgba(148,14,233,1) 13%, rgba(118,21,172,1) 37%, rgba(143,0,255,1) 100%);
+    ; color: rgb(0, 0, 0);}
+*{box-sizing: border-box;margin: 0;padding: 0;}
+
+.final-end {justify-content: flex-start ;display: flex;}
+.icon-end{ text-align: center;font-size: 35px; padding: 8px;}
+.foto-end{width: 126px;}
+.central{padding: 20px; padding-top: 34px; padding-bottom: 11px;}
+.central-end{padding: 20px; width: 500px;}
+.contato {
+    display: flex;
+    align-items: center;
+}
+body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+  }
